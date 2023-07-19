@@ -1,0 +1,33 @@
+
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 4em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.inputField {
+    margin-bottom: 2em !important;
+}
+
+.dateSelector {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}

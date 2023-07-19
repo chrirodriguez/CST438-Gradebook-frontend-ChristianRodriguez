@@ -78,7 +78,11 @@ class Assignment extends React.Component {
             <h4>Assignment(s) ready to grade: </h4>
               <div style={{ height: 450, width: '100%', align:"left"   }}>
                 <DataGrid rows={this.state.assignments} columns={columns} />
-              </div>                
+              </div>
+			<Button component={Link} to="/AddAssignment" variant="outlined" color="primary" style={{ margin: 10 }}>
+				Add Assignment
+			</Button>
+
             <Button component={Link} to={{pathname:'/gradebook',   assignment: assignmentSelected }} 
                     variant="outlined" color="primary" disabled={this.state.assignments.length===0}  style={{margin: 10}}>
               Grade
